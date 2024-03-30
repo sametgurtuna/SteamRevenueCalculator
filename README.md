@@ -2,7 +2,7 @@
 
 Welcome to the Steam Revenue Calculator!
 
-This tool helps developers estimate their revenue from game sales on the Steam platform. It takes into account various factors such as Steam's revenue cut, taxes in different countries, and provides an accurate estimation of the final revenue.
+This tool helps developers estimate their revenue from game sales on the Steam platform. It takes into account various factors such as Steam's revenue cut, taxes in Turkey and the United States, and provides an accurate estimation of the final revenue.
 
 ## Key Features
 
