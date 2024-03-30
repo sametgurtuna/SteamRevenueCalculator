@@ -31,5 +31,5 @@ This tool provides estimates for informational purposes only and should not be c
 
 Contributions are welcome! Feel free to open issues or submit pull requests to contribute to the project's development.
 
-For more information and updates, visit the [GitHub repository](link-to-your-repo) of the project.
+For more information and updates, visit the [GitHub repository]([link-to-your-repo](https://github.com/sametgurtuna/SteamRevenueCalculator)) of the project.
 
