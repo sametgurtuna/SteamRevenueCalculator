@@ -1,4 +1,4 @@
-# Steam Revenue Calculator
+# Source Codes of Steam Revenue Calculator
 
 Welcome to the Steam Revenue Calculator!
 
