@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Revenue Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Steam Revenue Calculator</h2>
+      <div class="switch-container">
+        <label>Calculate by Sales Count:</label>
+        <label class="switch">
+          <input id="toggle" type="checkbox" onclick="toggleSwitch()" />
+          <span class="slider"></span>
+        </label>
+        <label>Calculate by Reviews To Sales:</label>
+      </div>
+      <label for="gamePrice">Game Price ($):</label>
+      <input type="number" id="gamePrice" placeholder="Enter game price..." />
+      <label for="steamFee">Steam Fee (%):</label>
+      <input type="number" id="steamFee" value="30" />
+      <label for="salesCount" id="salesCountLabel">Number of Sales:</label>
+      <input type="number" id="salesCount" value="1" />
+      <label for="usTax">USA Tax (%):</label>
+      <input type="number" id="usTax" value="30" />
+      <label for="trTax">Turkey Tax (%):</label>
+      <input type="number" id="trTax" value="20" />
+      <button onclick="calculateRevenue()">Calculate Revenue</button>
+      <div id="revenue"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="info">
+      <h3>Tax Rates</h3>
+      <h4>Turkey Tax:</h4>
+      <p>In Turkey, tax rate is generally 20%.</p>
+      <br />
+      <h4>United States Tax:</h4>
+      <p>
+        Developers may be based in different countries and pay income taxes
+        based on a myriad of circumstances. There is also VAT, that is included
+        in the price in a lot of countries, and can be 5% to 25% depending on
+        the country. So I've just picked a rough number of 30% as the default,
+        and I will add the ability to fine-tune it in the future.
+      </p>
+      <br />
+      <h4>Steam Cut:</h4>
+      <p>
+        Steam takes its 30% cut, although some developers may have negotiated a
+        smaller cut, for example for exclusivity. But this number is probably
+        the standard for indie game developers.
+      </p>
+
+      <h3>Boxleiter Method</h3>
+      <p>
+        The Boxleiter method is a statistical method used for analyzing the
+        distribution of a dataset.
+      </p>
+      <p>
+        It is commonly used to determine the normal distribution of a dataset
+        and uncover specific trends or patterns.
+      </p>
+      <p>
+        In the Steam Revenue Calculator, this method allows users to estimate
+        revenue based on either the number of sales or the number of reviews.
+      </p>
+    </div>
+  </body>
+</html>
